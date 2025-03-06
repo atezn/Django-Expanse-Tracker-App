@@ -1,0 +1,16 @@
+
+{% block title %}Book List{% endblock %}
+
+{% block content %} 
+    <section>  
+        <h1>-Book List-</h1>  
+
+        {%for book in books %}
+        <article>
+            <a href="{ % url 'page' slug=book.slug %}">
+            <h2>{{ book.title }}</h2>
+            </a>
+        </article>
+        {% endfor %}
+    </section>
+{% endblock %}
