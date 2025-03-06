@@ -35,11 +35,11 @@ The Django Expense Tracker is a web application designed to help users track the
 
 ## Usage
 
-## Importing Data
+### Importing Data
 To import expense data from an Excel file(which named 'books.xlx'), place your Excel file in the Source Files directory and run the import script:
   python tracker/posts/import_data.py
 
-##Viewing Expenses
+### Viewing Expenses
 The homepage displays a pie chart of expenses by category.
 The admin interface allows you to manage expenses. Access it at http://127.0.0.1:8000/admin.
 
