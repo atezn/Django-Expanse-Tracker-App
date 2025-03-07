@@ -28,6 +28,7 @@ The Django Expense Tracker is a web application designed to help users track the
   venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 - Run the development server:
+  ```bash
   cd tracker
   py manage.py runserver
 
